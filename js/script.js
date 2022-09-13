@@ -8,10 +8,8 @@ let lista = document.getElementById('lista').value
 function Calculando(){
     let d = Number.parseFloat(document.getElementById('deslocamento').value)
     let t = Number.parseFloat(document.getElementById('tempo').value)
-    let res = ("A Velocidade Média é: " + (d / t))
+    let res = ("A Velocidade Média é: " + (d / t) + " km/h")
     document.getElementById('resposta').value = res
-    listou.push(res)
-    lista.innerHtml = (listou[i])
 }
 
 function Limpando(){
