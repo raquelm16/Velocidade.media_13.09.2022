@@ -10,6 +10,9 @@ function Calculando(){
     let t = Number.parseFloat(document.getElementById('tempo').value)
     let res = ("A Velocidade Média é: " + (d / t) + " km/h")
     document.getElementById('resposta').value = res
+    //let respostaFixed = res.toFixed(3)
+    document.getElementById("lista").innerHTML += res + "<br>"
+
 }
 
 function Limpando(){
