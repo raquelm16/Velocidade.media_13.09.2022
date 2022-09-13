@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: rgba(255, 68, 0, 0.747);
+    color: white;
+    font-size: 15px;
+    margin-top: 55px;
+}
+
+.footer-li{
+    padding: 17px;
+}
+
+header{
+    background-color:antiquewhite;
+    color:rgba(255, 68, 0, 0.747);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    font-weight: 600;
+    background-color: rgba(218, 218, 218, 0.158);
+}
+
+.container-principal, .container-secundario{
+    border-radius: 20px;
+    border: rgba(255, 68, 0, 0.747) solid 2px ;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.container-principal-titulo, .container-secundario-titulo {
+    border-radius: 5px;
+    background-color:rgba(222, 184, 135, 0.76);
+    color: rgba(255, 68, 0, 0.747);
+    padding: 8px;
+    font-weight: bold;
+    font-size:large;
+}
+
+.container-principal-caixa1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    border: rgba(255, 68, 0, 0.747) solid 2px;
+    padding: 5px;
+    margin-top: 13px;
+    width: 100%;
+}
+
+.container-principal-botao{
+    margin-top: 15px;
+    background-color: rgba(222, 184, 135, 0.76);
+    color: rgba(255, 68, 0, 0.747);
+    font-weight: bold;
+    border: rgba(255, 68, 0, 0.747) solid 1px;
+    border-radius: 11px;
+    padding: 7px;
+    margin-right: 12px;
+}
+
+.container-principal-caixa2 {
+    background-color: rgba(222, 184, 135, 0.76);
+    color: rgba(255, 68, 0, 0.747);
+    text-align: center;
+    border: rgba(255, 68, 0, 0.747) solid 1px;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 11px;
+    margin-bottom: 8px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.container-secundario-caixa{
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    border: rgba(255, 68, 0, 0.747) solid 2px;
+    padding: 5px;
+    margin-top: 13px;
+    width: 100%;
+    padding: 10px;
+}
