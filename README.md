@@ -1,1 +1,2 @@
-# Velocidade.media_13.09.2022
+# Velocidade Média
+O desafio foi criar um site em 2h e 30min que se parecesse com esse aqui:
