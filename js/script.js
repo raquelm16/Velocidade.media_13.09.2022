@@ -4,14 +4,17 @@ calcular.addEventListener('click', Calculando)
 let limpar = document.querySelector('#limpar')
 limpar.addEventListener('click', Limpando)
 let lista = document.getElementById('lista').value
+let d = Number.parseFloat(document.getElementById('deslocamento').value)
+let t = Number.parseFloat(document.getElementById('tempo').value)
 
-function Calculando(){
-    let d = Number.parseFloat(document.getElementById('deslocamento').value)
-    let t = Number.parseFloat(document.getElementById('tempo').value)
-    let res = ("A Velocidade Média é: " + (d / t) + " km/h")
+const Calculando = () => {
     document.getElementById('resposta').value = res
-
-    
+    res.value = ("A Velocidade Média é: " + (d / t) + " km/h")
+    listou.push(res.value)
+    lista.value = ""
+        listou.forEach(result => {
+            lista.value += result + "\n"
+        });
 }
 
 function Limpando(){
@@ -23,9 +26,9 @@ function Limpando(){
   document.getElementById('resposta').value = res
 }
 
-for(let i=0; i<3; i++){
-    lista = documento.getElementById('lista').value
-    res = document.getElementById('resposta').value
-    listou.push([res])
-    lista.innerHtml = (listou[i])
-}
+//for(let i=0; i<3; i++){
+//    lista = documento.getElementById('lista').value
+//    res = document.getElementById('resposta').value
+//    listou.push([res])
+//    lista.innerHtml = (listou[i])
+//}
