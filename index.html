@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.2.1/css/bootstrap.min.css">
+    <title>Cálculo da Velocidade Média</title>
+</head>
+<body>
+    <header>
+        <h2>Velocidade Média</h2>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="./sobre.html">Sobre</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    <main class="container">
+    <section class="container-principal">
+        <p class="container-principal-titulo">Cálculo</p>
+        <input class="container-principal-caixa1" type="number" id="deslocamento" placeholder="Informe o valor do deslocamento">
+        <input class="container-principal-caixa1" type="number" id="tempo" placeholder="Informe o intervalo de tempo">
+        <button class="container-principal-botao" id="limpar" onclick="Limpando()">Limpar</button>
+        <button class="container-principal-botao" id="calcular" onclick="Calculando()">Calcular</button>
+        <br>
+        <input class="container-principal-caixa2" type="text" id="resposta" reandonly>
+</section>
+
+        <section class="container-secundario">
+            <h3 class="container-secundario-titulo">Resultados</h3>
+            <p class="container-secundario-caixa" id="lista"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-li">
+        <li>SENAI SC</li>
+        <li>Curso de Desenvolvimento de Sistemas</li>
+        <li>Lógica de Programação</li>
+        <li>Raquel Moreira</li>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="bootstrap-5.2.1/js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+</html>
